@@ -1,0 +1,23 @@
+{
+  "id": "infrastructure/cost-performance",
+  "title": "Cost and Performance Trade-offs: Physical AI Systems",
+  "description": "Overview",
+  "source": "@site/docs/infrastructure/cost-performance.md",
+  "sourceDirName": "infrastructure",
+  "slug": "/infrastructure/cost-performance",
+  "permalink": "/docs/infrastructure/cost-performance",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/cost-performance.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "On-Premise vs Cloud: Infrastructure for Physical AI",
+    "permalink": "/docs/infrastructure/onprem-vs-cloud"
+  }
+}

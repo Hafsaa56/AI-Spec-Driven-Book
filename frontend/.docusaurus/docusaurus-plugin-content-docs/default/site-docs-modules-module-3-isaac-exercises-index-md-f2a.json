@@ -1,0 +1,18 @@
+{
+  "id": "modules/module-3-isaac/exercises/index",
+  "title": "Module 3 Exercises: NVIDIA Isaac Platform",
+  "description": "Exercise 1: Setting Up Isaac Sim Environment",
+  "source": "@site/docs/modules/module-3-isaac/exercises/index.md",
+  "sourceDirName": "modules/module-3-isaac/exercises",
+  "slug": "/modules/module-3-isaac/exercises/",
+  "permalink": "/docs/modules/module-3-isaac/exercises/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-3-isaac/exercises/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  }
+}

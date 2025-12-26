@@ -1,0 +1,15 @@
+{
+  "id": "modules/module-1-ros/exercises/basic-pubsub-exercise",
+  "title": "Basic Publisher-Subscriber Exercise",
+  "description": "Objective",
+  "source": "@site/docs/modules/module-1-ros/exercises/basic-pubsub-exercise.md",
+  "sourceDirName": "modules/module-1-ros/exercises",
+  "slug": "/modules/module-1-ros/exercises/basic-pubsub-exercise",
+  "permalink": "/docs/modules/module-1-ros/exercises/basic-pubsub-exercise",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-1-ros/exercises/basic-pubsub-exercise.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

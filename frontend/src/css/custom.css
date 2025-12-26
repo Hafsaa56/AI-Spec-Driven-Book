@@ -1,0 +1,88 @@
+/**
+ * Copyright (c) 2017-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * Custom CSS for the Physical AI and Humanoid Robotics book
+ */
+
+:root {
+  --ifm-color-primary: #2563eb;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1a47c5;
+  --ifm-color-primary-darkest: #153a9f;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
+  --ifm-code-font-size: 95%;
+}
+
+/* Custom styling for robotics content */
+.robotics-diagram {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #f9f9f9;
+}
+
+.ros-code-block {
+  background-color: #2d3748;
+  color: #f7fafc;
+  border-radius: 4px;
+  padding: 12px;
+  overflow-x: auto;
+}
+
+/* Custom admonitions for robotics concepts */
+.admonition.admonition-physical-ai {
+  border-color: #3b82f6;
+  background-color: #eff6ff;
+}
+
+.admonition.admonition-humanoid {
+  border-color: #10b981;
+  background-color: #ecfdf5;
+}
+
+/* Custom styling for code examples */
+.ros2-code {
+  font-family: 'SFMono-Regular', Consolas, 'Roboto Mono', 'Droid Sans Mono', 'Liberation Mono', Menlo, Courier, monospace;
+  background-color: #1e293b;
+  color: #f8f8f2;
+  padding: 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+/* Navigation enhancements */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Footer styling */
+.footer {
+  background-color: #1e293b;
+  color: white;
+}
+
+/* Table styling for robotics specifications */
+.table-robotics {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-robotics th,
+.table-robotics td {
+  border: 1px solid #d1d5db;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-robotics th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+}

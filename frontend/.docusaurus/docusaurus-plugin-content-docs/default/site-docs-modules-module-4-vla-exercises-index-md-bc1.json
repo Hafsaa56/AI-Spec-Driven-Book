@@ -1,0 +1,18 @@
+{
+  "id": "modules/module-4-vla/exercises/index",
+  "title": "Module 4 Exercises: Vision-Language-Action and Conversational Robots",
+  "description": "Exercise 1: Basic Vision-Language Model Implementation",
+  "source": "@site/docs/modules/module-4-vla/exercises/index.md",
+  "sourceDirName": "modules/module-4-vla/exercises",
+  "slug": "/modules/module-4-vla/exercises/",
+  "permalink": "/docs/modules/module-4-vla/exercises/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-4-vla/exercises/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  }
+}

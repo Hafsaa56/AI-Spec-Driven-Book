@@ -1,0 +1,27 @@
+{
+  "id": "overview/quarter-overview",
+  "title": "Quarter Overview: Physical AI and Humanoid Robotics",
+  "description": "Course Structure",
+  "source": "@site/docs/overview/quarter-overview.md",
+  "sourceDirName": "overview",
+  "slug": "/overview/quarter-overview",
+  "permalink": "/docs/overview/quarter-overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/overview/quarter-overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Physical AI and Humanoid Robotics",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Physical AI Concepts: Embodied Intelligence Under Physical Laws",
+    "permalink": "/docs/overview/physical-ai-concepts"
+  }
+}

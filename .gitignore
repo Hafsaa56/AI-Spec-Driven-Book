@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+.venv/
+
+# Backend directory (treated as separate entity)
+backend/.git/
+backend/.claude/
+backend/.specify/
+backend/history/
+backend/specs/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+.npm/
+.yarn/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+.DS_Store?
+ehthumbs.db
+Icon?
+.directory
+*.nib
+*~
+.viminfo
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env*
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.cov/

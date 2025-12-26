@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-4-vla/vision-language-action",
+  "title": "Vision-Language-Action: Multimodal AI for Robotics",
+  "description": "Overview",
+  "source": "@site/docs/modules/module-4-vla/vision-language-action.md",
+  "sourceDirName": "modules/module-4-vla",
+  "slug": "/modules/module-4-vla/vision-language-action",
+  "permalink": "/docs/modules/module-4-vla/vision-language-action",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-4-vla/vision-language-action.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 4: Vision-Language-Action Pipelines",
+    "permalink": "/docs/modules/module-4-vla/"
+  },
+  "next": {
+    "title": "Conversational Robots: Natural Language Interfaces for Robotics",
+    "permalink": "/docs/modules/module-4-vla/conversational-robots"
+  }
+}

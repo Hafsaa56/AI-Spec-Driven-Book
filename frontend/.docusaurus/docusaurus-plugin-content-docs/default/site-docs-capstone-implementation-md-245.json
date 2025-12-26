@@ -1,0 +1,27 @@
+{
+  "id": "capstone/implementation",
+  "title": "Capstone Implementation: Building the Autonomous Humanoid",
+  "description": "Implementation Overview",
+  "source": "@site/docs/capstone/implementation.md",
+  "sourceDirName": "capstone",
+  "slug": "/capstone/implementation",
+  "permalink": "/docs/capstone/implementation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/capstone/implementation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Capstone Architecture: Autonomous Humanoid Robot System",
+    "permalink": "/docs/capstone/architecture"
+  },
+  "next": {
+    "title": "Hardware Setup: Physical Robot Configuration",
+    "permalink": "/docs/capstone/hardware-setup"
+  }
+}

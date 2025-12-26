@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-3-isaac/isaac-ros",
+  "title": "NVIDIA Isaac ROS: GPU-Accelerated Perception and Manipulation",
+  "description": "Overview",
+  "source": "@site/docs/modules/module-3-isaac/isaac-ros.md",
+  "sourceDirName": "modules/module-3-isaac",
+  "slug": "/modules/module-3-isaac/isaac-ros",
+  "permalink": "/docs/modules/module-3-isaac/isaac-ros",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-3-isaac/isaac-ros.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NVIDIA Isaac Sim: Photorealistic Simulation and Synthetic Data Generation",
+    "permalink": "/docs/modules/module-3-isaac/isaac-sim"
+  },
+  "next": {
+    "title": "Module 4: Vision-Language-Action Pipelines",
+    "permalink": "/docs/modules/module-4-vla/"
+  }
+}

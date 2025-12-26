@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-4-vla/conversational-robots",
+  "title": "Conversational Robots: Natural Language Interfaces for Robotics",
+  "description": "Overview",
+  "source": "@site/docs/modules/module-4-vla/conversational-robots.md",
+  "sourceDirName": "modules/module-4-vla",
+  "slug": "/modules/module-4-vla/conversational-robots",
+  "permalink": "/docs/modules/module-4-vla/conversational-robots",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-4-vla/conversational-robots.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vision-Language-Action: Multimodal AI for Robotics",
+    "permalink": "/docs/modules/module-4-vla/vision-language-action"
+  },
+  "next": {
+    "title": "Capstone Project: Autonomous Humanoid Robot",
+    "permalink": "/docs/capstone/"
+  }
+}

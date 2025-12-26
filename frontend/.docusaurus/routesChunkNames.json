@@ -1,0 +1,169 @@
+{
+  "/__docusaurus/debug-ec7": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugafc-15d"
+    }
+  },
+  "/__docusaurus/debug/config-25d": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugafc-15d"
+    }
+  },
+  "/__docusaurus/debug/content-ee4": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugafc-15d"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-dc4": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugafc-15d"
+    }
+  },
+  "/__docusaurus/debug/metadata-3e2": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugafc-15d"
+    }
+  },
+  "/__docusaurus/debug/registry-c81": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugafc-15d"
+    }
+  },
+  "/__docusaurus/debug/routes-3fd": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugafc-15d"
+    }
+  },
+  "/docs-526": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docs-88-b-ae5"
+    }
+  },
+  "/docs-174": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---docs-935-398"
+  },
+  "/docs-828": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/capstone/-fd4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-capstone-cd-3-ad1"
+  },
+  "/docs/capstone/architecture-17a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-capstone-architectureb-0-a-a2e"
+  },
+  "/docs/capstone/hardware-setup-54b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-capstone-hardware-setupd-28-d43"
+  },
+  "/docs/capstone/implementation-b06": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-capstone-implementation-245-494"
+  },
+  "/docs/capstone/integration-guide-4f6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-capstone-integration-guide-3-ce-c27"
+  },
+  "/docs/environment-configuration-7a2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-environment-configuration-414-ebf"
+  },
+  "/docs/infrastructure/cost-performance-9c0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-infrastructure-cost-performance-8-d-9-cf0"
+  },
+  "/docs/infrastructure/hardware-requirements-761": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-infrastructure-hardware-requirementsc-31-247"
+  },
+  "/docs/infrastructure/onprem-vs-cloud-028": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-infrastructure-onprem-vs-cloude-5-e-b97"
+  },
+  "/docs/intro-aed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/modules/module-1-ros/-cb8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-1-ros-9-be-414"
+  },
+  "/docs/modules/module-1-ros/exercises/basic-pubsub-exercise-437": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-1-ros-exercises-basic-pubsub-exercisea-29-8cd"
+  },
+  "/docs/modules/module-1-ros/ros-nervous-system-925": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-1-ros-ros-nervous-system-44-c-344"
+  },
+  "/docs/modules/module-2-digital-twins/-8c7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-2-digital-twins-0-db-2c9"
+  },
+  "/docs/modules/module-2-digital-twins/gazebo-simulations-c05": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-2-digital-twins-gazebo-simulations-9-d-8-ebc"
+  },
+  "/docs/modules/module-2-digital-twins/unity-integration-685": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-2-digital-twins-unity-integration-1-a-9-929"
+  },
+  "/docs/modules/module-3-isaac/-eca": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-3-isaac-554-24f"
+  },
+  "/docs/modules/module-3-isaac/exercises/-7d0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-3-isaac-exercises-f-2-a-21e"
+  },
+  "/docs/modules/module-3-isaac/isaac-ros-346": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-3-isaac-isaac-rose-33-215"
+  },
+  "/docs/modules/module-3-isaac/isaac-sim-ef9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-3-isaac-isaac-sim-854-42d"
+  },
+  "/docs/modules/module-4-vla/-326": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-4-vla-6-be-211"
+  },
+  "/docs/modules/module-4-vla/conversational-robots-ac5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-4-vla-conversational-robots-304-3c3"
+  },
+  "/docs/modules/module-4-vla/exercises/-e04": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-4-vla-exercises-bc-1-dbe"
+  },
+  "/docs/modules/module-4-vla/vision-language-action-584": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-module-4-vla-vision-language-action-6-c-0-e23"
+  },
+  "/docs/overview/physical-ai-concepts-b75": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-overview-physical-ai-concepts-302-123"
+  },
+  "/docs/overview/quarter-overview-e75": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-overview-quarter-overviewac-5-b84"
+  },
+  "/-0fc": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---b-7-e-b61"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

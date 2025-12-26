@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-2-digital-twins/gazebo-simulations",
+  "title": "Gazebo Simulations: Physics-Based Digital Twins",
+  "description": "Introduction",
+  "source": "@site/docs/modules/module-2-digital-twins/gazebo-simulations.md",
+  "sourceDirName": "modules/module-2-digital-twins",
+  "slug": "/modules/module-2-digital-twins/gazebo-simulations",
+  "permalink": "/docs/modules/module-2-digital-twins/gazebo-simulations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-2-digital-twins/gazebo-simulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 2: Digital Twins - Gazebo and Unity",
+    "permalink": "/docs/modules/module-2-digital-twins/"
+  },
+  "next": {
+    "title": "Unity Integration: High-Fidelity Graphics and Simulation",
+    "permalink": "/docs/modules/module-2-digital-twins/unity-integration"
+  }
+}

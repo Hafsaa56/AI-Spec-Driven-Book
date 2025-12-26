@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-1-ros/ros-nervous-system",
+  "title": "ROS 2: The Nervous System of Robotics",
+  "description": "Introduction",
+  "source": "@site/docs/modules/module-1-ros/ros-nervous-system.md",
+  "sourceDirName": "modules/module-1-ros",
+  "slug": "/modules/module-1-ros/ros-nervous-system",
+  "permalink": "/docs/modules/module-1-ros/ros-nervous-system",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-1-ros/ros-nervous-system.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 1: ROS 2 Nervous System",
+    "permalink": "/docs/modules/module-1-ros/"
+  },
+  "next": {
+    "title": "Module 2: Digital Twins - Gazebo and Unity",
+    "permalink": "/docs/modules/module-2-digital-twins/"
+  }
+}

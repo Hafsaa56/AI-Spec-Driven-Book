@@ -1,0 +1,153 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "capstone/architecture",
+              "path": "/docs/capstone/architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "capstone/hardware-setup",
+              "path": "/docs/capstone/hardware-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "capstone/implementation",
+              "path": "/docs/capstone/implementation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "capstone/index",
+              "path": "/docs/capstone/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "capstone/integration-guide",
+              "path": "/docs/capstone/integration-guide"
+            },
+            {
+              "id": "environment-configuration",
+              "path": "/docs/environment-configuration"
+            },
+            {
+              "id": "infrastructure/cost-performance",
+              "path": "/docs/infrastructure/cost-performance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "infrastructure/hardware-requirements",
+              "path": "/docs/infrastructure/hardware-requirements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "infrastructure/onprem-vs-cloud",
+              "path": "/docs/infrastructure/onprem-vs-cloud",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-1-ros/exercises/basic-pubsub-exercise",
+              "path": "/docs/modules/module-1-ros/exercises/basic-pubsub-exercise"
+            },
+            {
+              "id": "modules/module-1-ros/index",
+              "path": "/docs/modules/module-1-ros/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-1-ros/ros-nervous-system",
+              "path": "/docs/modules/module-1-ros/ros-nervous-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-2-digital-twins/gazebo-simulations",
+              "path": "/docs/modules/module-2-digital-twins/gazebo-simulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-2-digital-twins/index",
+              "path": "/docs/modules/module-2-digital-twins/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-2-digital-twins/unity-integration",
+              "path": "/docs/modules/module-2-digital-twins/unity-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-3-isaac/exercises/index",
+              "path": "/docs/modules/module-3-isaac/exercises/"
+            },
+            {
+              "id": "modules/module-3-isaac/index",
+              "path": "/docs/modules/module-3-isaac/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-3-isaac/isaac-ros",
+              "path": "/docs/modules/module-3-isaac/isaac-ros",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-3-isaac/isaac-sim",
+              "path": "/docs/modules/module-3-isaac/isaac-sim",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-4-vla/conversational-robots",
+              "path": "/docs/modules/module-4-vla/conversational-robots",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-4-vla/exercises/index",
+              "path": "/docs/modules/module-4-vla/exercises/"
+            },
+            {
+              "id": "modules/module-4-vla/index",
+              "path": "/docs/modules/module-4-vla/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules/module-4-vla/vision-language-action",
+              "path": "/docs/modules/module-4-vla/vision-language-action",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "overview/physical-ai-concepts",
+              "path": "/docs/overview/physical-ai-concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "overview/quarter-overview",
+              "path": "/docs/overview/quarter-overview",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

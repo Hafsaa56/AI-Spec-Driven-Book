@@ -1,0 +1,27 @@
+{
+  "id": "capstone/hardware-setup",
+  "title": "Hardware Setup: Physical Robot Configuration",
+  "description": "Overview",
+  "source": "@site/docs/capstone/hardware-setup.md",
+  "sourceDirName": "capstone",
+  "slug": "/capstone/hardware-setup",
+  "permalink": "/docs/capstone/hardware-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/capstone/hardware-setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Capstone Implementation: Building the Autonomous Humanoid",
+    "permalink": "/docs/capstone/implementation"
+  },
+  "next": {
+    "title": "Hardware Requirements: Physical AI and Humanoid Robotics",
+    "permalink": "/docs/infrastructure/hardware-requirements"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-2-digital-twins/index",
+  "title": "Module 2: Digital Twins - Gazebo and Unity",
+  "description": "Overview",
+  "source": "@site/docs/modules/module-2-digital-twins/index.md",
+  "sourceDirName": "modules/module-2-digital-twins",
+  "slug": "/modules/module-2-digital-twins/",
+  "permalink": "/docs/modules/module-2-digital-twins/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-2-digital-twins/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2: The Nervous System of Robotics",
+    "permalink": "/docs/modules/module-1-ros/ros-nervous-system"
+  },
+  "next": {
+    "title": "Gazebo Simulations: Physics-Based Digital Twins",
+    "permalink": "/docs/modules/module-2-digital-twins/gazebo-simulations"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "infrastructure/onprem-vs-cloud",
+  "title": "On-Premise vs Cloud: Infrastructure for Physical AI",
+  "description": "Overview",
+  "source": "@site/docs/infrastructure/onprem-vs-cloud.md",
+  "sourceDirName": "infrastructure",
+  "slug": "/infrastructure/onprem-vs-cloud",
+  "permalink": "/docs/infrastructure/onprem-vs-cloud",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/onprem-vs-cloud.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hardware Requirements: Physical AI and Humanoid Robotics",
+    "permalink": "/docs/infrastructure/hardware-requirements"
+  },
+  "next": {
+    "title": "Cost and Performance Trade-offs: Physical AI Systems",
+    "permalink": "/docs/infrastructure/cost-performance"
+  }
+}

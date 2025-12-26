@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-2-digital-twins/unity-integration",
+  "title": "Unity Integration: High-Fidelity Graphics and Simulation",
+  "description": "Introduction",
+  "source": "@site/docs/modules/module-2-digital-twins/unity-integration.md",
+  "sourceDirName": "modules/module-2-digital-twins",
+  "slug": "/modules/module-2-digital-twins/unity-integration",
+  "permalink": "/docs/modules/module-2-digital-twins/unity-integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-2-digital-twins/unity-integration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gazebo Simulations: Physics-Based Digital Twins",
+    "permalink": "/docs/modules/module-2-digital-twins/gazebo-simulations"
+  },
+  "next": {
+    "title": "Module 3: NVIDIA Isaac Platform",
+    "permalink": "/docs/modules/module-3-isaac/"
+  }
+}

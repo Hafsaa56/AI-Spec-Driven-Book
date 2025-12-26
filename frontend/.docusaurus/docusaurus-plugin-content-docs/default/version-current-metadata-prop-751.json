@@ -1,0 +1,370 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Physical AI and Humanoid Robotics",
+        "href": "/docs/intro",
+        "docId": "intro",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "Overview",
+        "items": [
+          {
+            "type": "link",
+            "label": "Quarter Overview: Physical AI and Humanoid Robotics",
+            "href": "/docs/overview/quarter-overview",
+            "docId": "overview/quarter-overview",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Physical AI Concepts: Embodied Intelligence Under Physical Laws",
+            "href": "/docs/overview/physical-ai-concepts",
+            "docId": "overview/physical-ai-concepts",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Module 1: ROS 2 Nervous System",
+        "items": [
+          {
+            "type": "link",
+            "label": "Module 1: ROS 2 Nervous System",
+            "href": "/docs/modules/module-1-ros/",
+            "docId": "modules/module-1-ros/index",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ROS 2: The Nervous System of Robotics",
+            "href": "/docs/modules/module-1-ros/ros-nervous-system",
+            "docId": "modules/module-1-ros/ros-nervous-system",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Module 2: Digital Twins",
+        "items": [
+          {
+            "type": "link",
+            "label": "Module 2: Digital Twins - Gazebo and Unity",
+            "href": "/docs/modules/module-2-digital-twins/",
+            "docId": "modules/module-2-digital-twins/index",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Gazebo Simulations: Physics-Based Digital Twins",
+            "href": "/docs/modules/module-2-digital-twins/gazebo-simulations",
+            "docId": "modules/module-2-digital-twins/gazebo-simulations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Unity Integration: High-Fidelity Graphics and Simulation",
+            "href": "/docs/modules/module-2-digital-twins/unity-integration",
+            "docId": "modules/module-2-digital-twins/unity-integration",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Module 3: NVIDIA Isaac",
+        "items": [
+          {
+            "type": "link",
+            "label": "Module 3: NVIDIA Isaac Platform",
+            "href": "/docs/modules/module-3-isaac/",
+            "docId": "modules/module-3-isaac/index",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "NVIDIA Isaac Sim: Photorealistic Simulation and Synthetic Data Generation",
+            "href": "/docs/modules/module-3-isaac/isaac-sim",
+            "docId": "modules/module-3-isaac/isaac-sim",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "NVIDIA Isaac ROS: GPU-Accelerated Perception and Manipulation",
+            "href": "/docs/modules/module-3-isaac/isaac-ros",
+            "docId": "modules/module-3-isaac/isaac-ros",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Module 4: Vision-Language-Action",
+        "items": [
+          {
+            "type": "link",
+            "label": "Module 4: Vision-Language-Action Pipelines",
+            "href": "/docs/modules/module-4-vla/",
+            "docId": "modules/module-4-vla/index",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Vision-Language-Action: Multimodal AI for Robotics",
+            "href": "/docs/modules/module-4-vla/vision-language-action",
+            "docId": "modules/module-4-vla/vision-language-action",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Conversational Robots: Natural Language Interfaces for Robotics",
+            "href": "/docs/modules/module-4-vla/conversational-robots",
+            "docId": "modules/module-4-vla/conversational-robots",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Capstone Project",
+        "items": [
+          {
+            "type": "link",
+            "label": "Capstone Project: Autonomous Humanoid Robot",
+            "href": "/docs/capstone/",
+            "docId": "capstone/index",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Capstone Architecture: Autonomous Humanoid Robot System",
+            "href": "/docs/capstone/architecture",
+            "docId": "capstone/architecture",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Capstone Implementation: Building the Autonomous Humanoid",
+            "href": "/docs/capstone/implementation",
+            "docId": "capstone/implementation",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Hardware Setup: Physical Robot Configuration",
+            "href": "/docs/capstone/hardware-setup",
+            "docId": "capstone/hardware-setup",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Infrastructure",
+        "items": [
+          {
+            "type": "link",
+            "label": "Hardware Requirements: Physical AI and Humanoid Robotics",
+            "href": "/docs/infrastructure/hardware-requirements",
+            "docId": "infrastructure/hardware-requirements",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "On-Premise vs Cloud: Infrastructure for Physical AI",
+            "href": "/docs/infrastructure/onprem-vs-cloud",
+            "docId": "infrastructure/onprem-vs-cloud",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Cost and Performance Trade-offs: Physical AI Systems",
+            "href": "/docs/infrastructure/cost-performance",
+            "docId": "infrastructure/cost-performance",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "capstone/architecture": {
+      "id": "capstone/architecture",
+      "title": "Capstone Architecture: Autonomous Humanoid Robot System",
+      "description": "System Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "capstone/hardware-setup": {
+      "id": "capstone/hardware-setup",
+      "title": "Hardware Setup: Physical Robot Configuration",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "capstone/implementation": {
+      "id": "capstone/implementation",
+      "title": "Capstone Implementation: Building the Autonomous Humanoid",
+      "description": "Implementation Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "capstone/index": {
+      "id": "capstone/index",
+      "title": "Capstone Project: Autonomous Humanoid Robot",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "capstone/integration-guide": {
+      "id": "capstone/integration-guide",
+      "title": "Integration Guide: Complete Physical AI System",
+      "description": "Overview"
+    },
+    "environment-configuration": {
+      "id": "environment-configuration",
+      "title": "Environment Configuration for Ubuntu 22.04",
+      "description": "This guide provides the necessary steps to configure your Ubuntu 22.04 environment for the Physical AI and Humanoid Robotics book."
+    },
+    "infrastructure/cost-performance": {
+      "id": "infrastructure/cost-performance",
+      "title": "Cost and Performance Trade-offs: Physical AI Systems",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "infrastructure/hardware-requirements": {
+      "id": "infrastructure/hardware-requirements",
+      "title": "Hardware Requirements: Physical AI and Humanoid Robotics",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "infrastructure/onprem-vs-cloud": {
+      "id": "infrastructure/onprem-vs-cloud",
+      "title": "On-Premise vs Cloud: Infrastructure for Physical AI",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Physical AI and Humanoid Robotics",
+      "description": "Welcome to the comprehensive guide on Physical AI and Humanoid Robotics. This book provides a deep dive into embodied intelligence operating under physical laws, with a focus on practical applications using industry-standard frameworks.",
+      "sidebar": "tutorialSidebar"
+    },
+    "modules/module-1-ros/exercises/basic-pubsub-exercise": {
+      "id": "modules/module-1-ros/exercises/basic-pubsub-exercise",
+      "title": "Basic Publisher-Subscriber Exercise",
+      "description": "Objective"
+    },
+    "modules/module-1-ros/index": {
+      "id": "modules/module-1-ros/index",
+      "title": "Module 1: ROS 2 Nervous System",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "modules/module-1-ros/ros-nervous-system": {
+      "id": "modules/module-1-ros/ros-nervous-system",
+      "title": "ROS 2: The Nervous System of Robotics",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "modules/module-2-digital-twins/gazebo-simulations": {
+      "id": "modules/module-2-digital-twins/gazebo-simulations",
+      "title": "Gazebo Simulations: Physics-Based Digital Twins",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "modules/module-2-digital-twins/index": {
+      "id": "modules/module-2-digital-twins/index",
+      "title": "Module 2: Digital Twins - Gazebo and Unity",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "modules/module-2-digital-twins/unity-integration": {
+      "id": "modules/module-2-digital-twins/unity-integration",
+      "title": "Unity Integration: High-Fidelity Graphics and Simulation",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "modules/module-3-isaac/exercises/index": {
+      "id": "modules/module-3-isaac/exercises/index",
+      "title": "Module 3 Exercises: NVIDIA Isaac Platform",
+      "description": "Exercise 1: Setting Up Isaac Sim Environment"
+    },
+    "modules/module-3-isaac/index": {
+      "id": "modules/module-3-isaac/index",
+      "title": "Module 3: NVIDIA Isaac Platform",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "modules/module-3-isaac/isaac-ros": {
+      "id": "modules/module-3-isaac/isaac-ros",
+      "title": "NVIDIA Isaac ROS: GPU-Accelerated Perception and Manipulation",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "modules/module-3-isaac/isaac-sim": {
+      "id": "modules/module-3-isaac/isaac-sim",
+      "title": "NVIDIA Isaac Sim: Photorealistic Simulation and Synthetic Data Generation",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "modules/module-4-vla/conversational-robots": {
+      "id": "modules/module-4-vla/conversational-robots",
+      "title": "Conversational Robots: Natural Language Interfaces for Robotics",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "modules/module-4-vla/exercises/index": {
+      "id": "modules/module-4-vla/exercises/index",
+      "title": "Module 4 Exercises: Vision-Language-Action and Conversational Robots",
+      "description": "Exercise 1: Basic Vision-Language Model Implementation"
+    },
+    "modules/module-4-vla/index": {
+      "id": "modules/module-4-vla/index",
+      "title": "Module 4: Vision-Language-Action Pipelines",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "modules/module-4-vla/vision-language-action": {
+      "id": "modules/module-4-vla/vision-language-action",
+      "title": "Vision-Language-Action: Multimodal AI for Robotics",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "overview/physical-ai-concepts": {
+      "id": "overview/physical-ai-concepts",
+      "title": "Physical AI Concepts: Embodied Intelligence Under Physical Laws",
+      "description": "What is Physical AI?",
+      "sidebar": "tutorialSidebar"
+    },
+    "overview/quarter-overview": {
+      "id": "overview/quarter-overview",
+      "title": "Quarter Overview: Physical AI and Humanoid Robotics",
+      "description": "Course Structure",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

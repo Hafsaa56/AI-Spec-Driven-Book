@@ -1,0 +1,831 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\Al hamd\\Desktop\\AISpec-Driven Book\\frontend\\sidebars.js",
+          "contentPath": "C:\\Users\\Al hamd\\Desktop\\AISpec-Driven Book\\frontend\\docs",
+          "contentPathLocalized": "C:\\Users\\Al hamd\\Desktop\\AISpec-Driven Book\\frontend\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "capstone/architecture",
+              "title": "Capstone Architecture: Autonomous Humanoid Robot System",
+              "description": "System Overview",
+              "source": "@site/docs/capstone/architecture.md",
+              "sourceDirName": "capstone",
+              "slug": "/capstone/architecture",
+              "permalink": "/docs/capstone/architecture",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/capstone/architecture.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Capstone Project: Autonomous Humanoid Robot",
+                "permalink": "/docs/capstone/"
+              },
+              "next": {
+                "title": "Capstone Implementation: Building the Autonomous Humanoid",
+                "permalink": "/docs/capstone/implementation"
+              }
+            },
+            {
+              "id": "capstone/hardware-setup",
+              "title": "Hardware Setup: Physical Robot Configuration",
+              "description": "Overview",
+              "source": "@site/docs/capstone/hardware-setup.md",
+              "sourceDirName": "capstone",
+              "slug": "/capstone/hardware-setup",
+              "permalink": "/docs/capstone/hardware-setup",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/capstone/hardware-setup.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Capstone Implementation: Building the Autonomous Humanoid",
+                "permalink": "/docs/capstone/implementation"
+              },
+              "next": {
+                "title": "Hardware Requirements: Physical AI and Humanoid Robotics",
+                "permalink": "/docs/infrastructure/hardware-requirements"
+              }
+            },
+            {
+              "id": "capstone/implementation",
+              "title": "Capstone Implementation: Building the Autonomous Humanoid",
+              "description": "Implementation Overview",
+              "source": "@site/docs/capstone/implementation.md",
+              "sourceDirName": "capstone",
+              "slug": "/capstone/implementation",
+              "permalink": "/docs/capstone/implementation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/capstone/implementation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Capstone Architecture: Autonomous Humanoid Robot System",
+                "permalink": "/docs/capstone/architecture"
+              },
+              "next": {
+                "title": "Hardware Setup: Physical Robot Configuration",
+                "permalink": "/docs/capstone/hardware-setup"
+              }
+            },
+            {
+              "id": "capstone/index",
+              "title": "Capstone Project: Autonomous Humanoid Robot",
+              "description": "Overview",
+              "source": "@site/docs/capstone/index.md",
+              "sourceDirName": "capstone",
+              "slug": "/capstone/",
+              "permalink": "/docs/capstone/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/capstone/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Conversational Robots: Natural Language Interfaces for Robotics",
+                "permalink": "/docs/modules/module-4-vla/conversational-robots"
+              },
+              "next": {
+                "title": "Capstone Architecture: Autonomous Humanoid Robot System",
+                "permalink": "/docs/capstone/architecture"
+              }
+            },
+            {
+              "id": "capstone/integration-guide",
+              "title": "Integration Guide: Complete Physical AI System",
+              "description": "Overview",
+              "source": "@site/docs/capstone/integration-guide.md",
+              "sourceDirName": "capstone",
+              "slug": "/capstone/integration-guide",
+              "permalink": "/docs/capstone/integration-guide",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/capstone/integration-guide.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              }
+            },
+            {
+              "id": "environment-configuration",
+              "title": "Environment Configuration for Ubuntu 22.04",
+              "description": "This guide provides the necessary steps to configure your Ubuntu 22.04 environment for the Physical AI and Humanoid Robotics book.",
+              "source": "@site/docs/environment-configuration.md",
+              "sourceDirName": ".",
+              "slug": "/environment-configuration",
+              "permalink": "/docs/environment-configuration",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/environment-configuration.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              }
+            },
+            {
+              "id": "infrastructure/cost-performance",
+              "title": "Cost and Performance Trade-offs: Physical AI Systems",
+              "description": "Overview",
+              "source": "@site/docs/infrastructure/cost-performance.md",
+              "sourceDirName": "infrastructure",
+              "slug": "/infrastructure/cost-performance",
+              "permalink": "/docs/infrastructure/cost-performance",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/cost-performance.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "On-Premise vs Cloud: Infrastructure for Physical AI",
+                "permalink": "/docs/infrastructure/onprem-vs-cloud"
+              }
+            },
+            {
+              "id": "infrastructure/hardware-requirements",
+              "title": "Hardware Requirements: Physical AI and Humanoid Robotics",
+              "description": "Overview",
+              "source": "@site/docs/infrastructure/hardware-requirements.md",
+              "sourceDirName": "infrastructure",
+              "slug": "/infrastructure/hardware-requirements",
+              "permalink": "/docs/infrastructure/hardware-requirements",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/hardware-requirements.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Hardware Setup: Physical Robot Configuration",
+                "permalink": "/docs/capstone/hardware-setup"
+              },
+              "next": {
+                "title": "On-Premise vs Cloud: Infrastructure for Physical AI",
+                "permalink": "/docs/infrastructure/onprem-vs-cloud"
+              }
+            },
+            {
+              "id": "infrastructure/onprem-vs-cloud",
+              "title": "On-Premise vs Cloud: Infrastructure for Physical AI",
+              "description": "Overview",
+              "source": "@site/docs/infrastructure/onprem-vs-cloud.md",
+              "sourceDirName": "infrastructure",
+              "slug": "/infrastructure/onprem-vs-cloud",
+              "permalink": "/docs/infrastructure/onprem-vs-cloud",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/onprem-vs-cloud.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Hardware Requirements: Physical AI and Humanoid Robotics",
+                "permalink": "/docs/infrastructure/hardware-requirements"
+              },
+              "next": {
+                "title": "Cost and Performance Trade-offs: Physical AI Systems",
+                "permalink": "/docs/infrastructure/cost-performance"
+              }
+            },
+            {
+              "id": "intro",
+              "title": "Physical AI and Humanoid Robotics",
+              "description": "Welcome to the comprehensive guide on Physical AI and Humanoid Robotics. This book provides a deep dive into embodied intelligence operating under physical laws, with a focus on practical applications using industry-standard frameworks.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Quarter Overview: Physical AI and Humanoid Robotics",
+                "permalink": "/docs/overview/quarter-overview"
+              }
+            },
+            {
+              "id": "modules/module-1-ros/exercises/basic-pubsub-exercise",
+              "title": "Basic Publisher-Subscriber Exercise",
+              "description": "Objective",
+              "source": "@site/docs/modules/module-1-ros/exercises/basic-pubsub-exercise.md",
+              "sourceDirName": "modules/module-1-ros/exercises",
+              "slug": "/modules/module-1-ros/exercises/basic-pubsub-exercise",
+              "permalink": "/docs/modules/module-1-ros/exercises/basic-pubsub-exercise",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-1-ros/exercises/basic-pubsub-exercise.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "modules/module-1-ros/index",
+              "title": "Module 1: ROS 2 Nervous System",
+              "description": "Overview",
+              "source": "@site/docs/modules/module-1-ros/index.md",
+              "sourceDirName": "modules/module-1-ros",
+              "slug": "/modules/module-1-ros/",
+              "permalink": "/docs/modules/module-1-ros/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-1-ros/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Physical AI Concepts: Embodied Intelligence Under Physical Laws",
+                "permalink": "/docs/overview/physical-ai-concepts"
+              },
+              "next": {
+                "title": "ROS 2: The Nervous System of Robotics",
+                "permalink": "/docs/modules/module-1-ros/ros-nervous-system"
+              }
+            },
+            {
+              "id": "modules/module-1-ros/ros-nervous-system",
+              "title": "ROS 2: The Nervous System of Robotics",
+              "description": "Introduction",
+              "source": "@site/docs/modules/module-1-ros/ros-nervous-system.md",
+              "sourceDirName": "modules/module-1-ros",
+              "slug": "/modules/module-1-ros/ros-nervous-system",
+              "permalink": "/docs/modules/module-1-ros/ros-nervous-system",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-1-ros/ros-nervous-system.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 1: ROS 2 Nervous System",
+                "permalink": "/docs/modules/module-1-ros/"
+              },
+              "next": {
+                "title": "Module 2: Digital Twins - Gazebo and Unity",
+                "permalink": "/docs/modules/module-2-digital-twins/"
+              }
+            },
+            {
+              "id": "modules/module-2-digital-twins/gazebo-simulations",
+              "title": "Gazebo Simulations: Physics-Based Digital Twins",
+              "description": "Introduction",
+              "source": "@site/docs/modules/module-2-digital-twins/gazebo-simulations.md",
+              "sourceDirName": "modules/module-2-digital-twins",
+              "slug": "/modules/module-2-digital-twins/gazebo-simulations",
+              "permalink": "/docs/modules/module-2-digital-twins/gazebo-simulations",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-2-digital-twins/gazebo-simulations.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 2: Digital Twins - Gazebo and Unity",
+                "permalink": "/docs/modules/module-2-digital-twins/"
+              },
+              "next": {
+                "title": "Unity Integration: High-Fidelity Graphics and Simulation",
+                "permalink": "/docs/modules/module-2-digital-twins/unity-integration"
+              }
+            },
+            {
+              "id": "modules/module-2-digital-twins/index",
+              "title": "Module 2: Digital Twins - Gazebo and Unity",
+              "description": "Overview",
+              "source": "@site/docs/modules/module-2-digital-twins/index.md",
+              "sourceDirName": "modules/module-2-digital-twins",
+              "slug": "/modules/module-2-digital-twins/",
+              "permalink": "/docs/modules/module-2-digital-twins/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-2-digital-twins/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ROS 2: The Nervous System of Robotics",
+                "permalink": "/docs/modules/module-1-ros/ros-nervous-system"
+              },
+              "next": {
+                "title": "Gazebo Simulations: Physics-Based Digital Twins",
+                "permalink": "/docs/modules/module-2-digital-twins/gazebo-simulations"
+              }
+            },
+            {
+              "id": "modules/module-2-digital-twins/unity-integration",
+              "title": "Unity Integration: High-Fidelity Graphics and Simulation",
+              "description": "Introduction",
+              "source": "@site/docs/modules/module-2-digital-twins/unity-integration.md",
+              "sourceDirName": "modules/module-2-digital-twins",
+              "slug": "/modules/module-2-digital-twins/unity-integration",
+              "permalink": "/docs/modules/module-2-digital-twins/unity-integration",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-2-digital-twins/unity-integration.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Gazebo Simulations: Physics-Based Digital Twins",
+                "permalink": "/docs/modules/module-2-digital-twins/gazebo-simulations"
+              },
+              "next": {
+                "title": "Module 3: NVIDIA Isaac Platform",
+                "permalink": "/docs/modules/module-3-isaac/"
+              }
+            },
+            {
+              "id": "modules/module-3-isaac/exercises/index",
+              "title": "Module 3 Exercises: NVIDIA Isaac Platform",
+              "description": "Exercise 1: Setting Up Isaac Sim Environment",
+              "source": "@site/docs/modules/module-3-isaac/exercises/index.md",
+              "sourceDirName": "modules/module-3-isaac/exercises",
+              "slug": "/modules/module-3-isaac/exercises/",
+              "permalink": "/docs/modules/module-3-isaac/exercises/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-3-isaac/exercises/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              }
+            },
+            {
+              "id": "modules/module-3-isaac/index",
+              "title": "Module 3: NVIDIA Isaac Platform",
+              "description": "Overview",
+              "source": "@site/docs/modules/module-3-isaac/index.md",
+              "sourceDirName": "modules/module-3-isaac",
+              "slug": "/modules/module-3-isaac/",
+              "permalink": "/docs/modules/module-3-isaac/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-3-isaac/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Unity Integration: High-Fidelity Graphics and Simulation",
+                "permalink": "/docs/modules/module-2-digital-twins/unity-integration"
+              },
+              "next": {
+                "title": "NVIDIA Isaac Sim: Photorealistic Simulation and Synthetic Data Generation",
+                "permalink": "/docs/modules/module-3-isaac/isaac-sim"
+              }
+            },
+            {
+              "id": "modules/module-3-isaac/isaac-ros",
+              "title": "NVIDIA Isaac ROS: GPU-Accelerated Perception and Manipulation",
+              "description": "Overview",
+              "source": "@site/docs/modules/module-3-isaac/isaac-ros.md",
+              "sourceDirName": "modules/module-3-isaac",
+              "slug": "/modules/module-3-isaac/isaac-ros",
+              "permalink": "/docs/modules/module-3-isaac/isaac-ros",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-3-isaac/isaac-ros.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "NVIDIA Isaac Sim: Photorealistic Simulation and Synthetic Data Generation",
+                "permalink": "/docs/modules/module-3-isaac/isaac-sim"
+              },
+              "next": {
+                "title": "Module 4: Vision-Language-Action Pipelines",
+                "permalink": "/docs/modules/module-4-vla/"
+              }
+            },
+            {
+              "id": "modules/module-3-isaac/isaac-sim",
+              "title": "NVIDIA Isaac Sim: Photorealistic Simulation and Synthetic Data Generation",
+              "description": "Overview",
+              "source": "@site/docs/modules/module-3-isaac/isaac-sim.md",
+              "sourceDirName": "modules/module-3-isaac",
+              "slug": "/modules/module-3-isaac/isaac-sim",
+              "permalink": "/docs/modules/module-3-isaac/isaac-sim",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-3-isaac/isaac-sim.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 3: NVIDIA Isaac Platform",
+                "permalink": "/docs/modules/module-3-isaac/"
+              },
+              "next": {
+                "title": "NVIDIA Isaac ROS: GPU-Accelerated Perception and Manipulation",
+                "permalink": "/docs/modules/module-3-isaac/isaac-ros"
+              }
+            },
+            {
+              "id": "modules/module-4-vla/conversational-robots",
+              "title": "Conversational Robots: Natural Language Interfaces for Robotics",
+              "description": "Overview",
+              "source": "@site/docs/modules/module-4-vla/conversational-robots.md",
+              "sourceDirName": "modules/module-4-vla",
+              "slug": "/modules/module-4-vla/conversational-robots",
+              "permalink": "/docs/modules/module-4-vla/conversational-robots",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-4-vla/conversational-robots.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Vision-Language-Action: Multimodal AI for Robotics",
+                "permalink": "/docs/modules/module-4-vla/vision-language-action"
+              },
+              "next": {
+                "title": "Capstone Project: Autonomous Humanoid Robot",
+                "permalink": "/docs/capstone/"
+              }
+            },
+            {
+              "id": "modules/module-4-vla/exercises/index",
+              "title": "Module 4 Exercises: Vision-Language-Action and Conversational Robots",
+              "description": "Exercise 1: Basic Vision-Language Model Implementation",
+              "source": "@site/docs/modules/module-4-vla/exercises/index.md",
+              "sourceDirName": "modules/module-4-vla/exercises",
+              "slug": "/modules/module-4-vla/exercises/",
+              "permalink": "/docs/modules/module-4-vla/exercises/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-4-vla/exercises/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              }
+            },
+            {
+              "id": "modules/module-4-vla/index",
+              "title": "Module 4: Vision-Language-Action Pipelines",
+              "description": "Overview",
+              "source": "@site/docs/modules/module-4-vla/index.md",
+              "sourceDirName": "modules/module-4-vla",
+              "slug": "/modules/module-4-vla/",
+              "permalink": "/docs/modules/module-4-vla/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-4-vla/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "NVIDIA Isaac ROS: GPU-Accelerated Perception and Manipulation",
+                "permalink": "/docs/modules/module-3-isaac/isaac-ros"
+              },
+              "next": {
+                "title": "Vision-Language-Action: Multimodal AI for Robotics",
+                "permalink": "/docs/modules/module-4-vla/vision-language-action"
+              }
+            },
+            {
+              "id": "modules/module-4-vla/vision-language-action",
+              "title": "Vision-Language-Action: Multimodal AI for Robotics",
+              "description": "Overview",
+              "source": "@site/docs/modules/module-4-vla/vision-language-action.md",
+              "sourceDirName": "modules/module-4-vla",
+              "slug": "/modules/module-4-vla/vision-language-action",
+              "permalink": "/docs/modules/module-4-vla/vision-language-action",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-4-vla/vision-language-action.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 4: Vision-Language-Action Pipelines",
+                "permalink": "/docs/modules/module-4-vla/"
+              },
+              "next": {
+                "title": "Conversational Robots: Natural Language Interfaces for Robotics",
+                "permalink": "/docs/modules/module-4-vla/conversational-robots"
+              }
+            },
+            {
+              "id": "overview/physical-ai-concepts",
+              "title": "Physical AI Concepts: Embodied Intelligence Under Physical Laws",
+              "description": "What is Physical AI?",
+              "source": "@site/docs/overview/physical-ai-concepts.md",
+              "sourceDirName": "overview",
+              "slug": "/overview/physical-ai-concepts",
+              "permalink": "/docs/overview/physical-ai-concepts",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/overview/physical-ai-concepts.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Quarter Overview: Physical AI and Humanoid Robotics",
+                "permalink": "/docs/overview/quarter-overview"
+              },
+              "next": {
+                "title": "Module 1: ROS 2 Nervous System",
+                "permalink": "/docs/modules/module-1-ros/"
+              }
+            },
+            {
+              "id": "overview/quarter-overview",
+              "title": "Quarter Overview: Physical AI and Humanoid Robotics",
+              "description": "Course Structure",
+              "source": "@site/docs/overview/quarter-overview.md",
+              "sourceDirName": "overview",
+              "slug": "/overview/quarter-overview",
+              "permalink": "/docs/overview/quarter-overview",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/overview/quarter-overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Physical AI and Humanoid Robotics",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Physical AI Concepts: Embodied Intelligence Under Physical Laws",
+                "permalink": "/docs/overview/physical-ai-concepts"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Overview",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "overview/quarter-overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "overview/physical-ai-concepts"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 1: ROS 2 Nervous System",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "modules/module-1-ros/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/module-1-ros/ros-nervous-system"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 2: Digital Twins",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "modules/module-2-digital-twins/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/module-2-digital-twins/gazebo-simulations"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/module-2-digital-twins/unity-integration"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 3: NVIDIA Isaac",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "modules/module-3-isaac/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/module-3-isaac/isaac-sim"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/module-3-isaac/isaac-ros"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 4: Vision-Language-Action",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "modules/module-4-vla/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/module-4-vla/vision-language-action"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/module-4-vla/conversational-robots"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Capstone Project",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "capstone/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "capstone/architecture"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "capstone/implementation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "capstone/hardware-setup"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Infrastructure",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "infrastructure/hardware-requirements"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "infrastructure/onprem-vs-cloud"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "infrastructure/cost-performance"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

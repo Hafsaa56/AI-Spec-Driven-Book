@@ -1,0 +1,18 @@
+{
+  "id": "environment-configuration",
+  "title": "Environment Configuration for Ubuntu 22.04",
+  "description": "This guide provides the necessary steps to configure your Ubuntu 22.04 environment for the Physical AI and Humanoid Robotics book.",
+  "source": "@site/docs/environment-configuration.md",
+  "sourceDirName": ".",
+  "slug": "/environment-configuration",
+  "permalink": "/docs/environment-configuration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/environment-configuration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "modules/module-4-vla/index",
+  "title": "Module 4: Vision-Language-Action Pipelines",
+  "description": "Overview",
+  "source": "@site/docs/modules/module-4-vla/index.md",
+  "sourceDirName": "modules/module-4-vla",
+  "slug": "/modules/module-4-vla/",
+  "permalink": "/docs/modules/module-4-vla/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/modules/module-4-vla/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NVIDIA Isaac ROS: GPU-Accelerated Perception and Manipulation",
+    "permalink": "/docs/modules/module-3-isaac/isaac-ros"
+  },
+  "next": {
+    "title": "Vision-Language-Action: Multimodal AI for Robotics",
+    "permalink": "/docs/modules/module-4-vla/vision-language-action"
+  }
+}
