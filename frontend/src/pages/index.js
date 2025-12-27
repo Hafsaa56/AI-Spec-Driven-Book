@@ -17,12 +17,12 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/overview/intro">
+            to="/docs/intro">
             Explore the Book
           </Link>
           <Link
             className="button button--primary button--lg"
-            to="/docs/overview/intro">
+            to="/docs/intro">
             Start Learning
           </Link>
         </div>
@@ -92,7 +92,7 @@ export default function Home() {
                   </p>
                   <Link
                     className="button button--outline button--secondary button--md"
-                    to="/docs/overview/intro">
+                    to="/docs/intro">
                     Start Exploring
                   </Link>
                 </div>

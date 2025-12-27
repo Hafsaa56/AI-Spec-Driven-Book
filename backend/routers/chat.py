@@ -7,7 +7,7 @@ from pydantic import BaseModel
 from database import Database, ChatSession, ChatMessage
 from rag_service import RAGService, RAGResponse
 
-router = APIRouter(prefix="/chat", tags=["chat"])
+router = APIRouter(tags=["chat"])
 
 # Request/Response models
 class ChatRequest(BaseModel):
@@ -49,7 +49,7 @@ except Exception as e:
     print(f"Error creating RAG service instance: {str(e)}")
     rag_service = None
 
-@router.post("/", response_model=ChatResponse)
+@router.post("/chat", response_model=ChatResponse)
 async def chat(chat_request: ChatRequest):
     """Handle a chat message and return a response."""
     try:
@@ -128,7 +128,7 @@ async def chat(chat_request: ChatRequest):
 
         raise HTTPException(status_code=500, detail=f"Error processing chat: {str(e)}")
 
-@router.post("/session", response_model=SessionResponse)
+@router.post("/chat/session", response_model=SessionResponse)
 async def create_session(session_request: SessionRequest = None):
     """Create a new chat session."""
     try:
@@ -150,7 +150,7 @@ async def create_session(session_request: SessionRequest = None):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error creating session: {str(e)}")
 
-@router.get("/session/{session_id}", response_model=SessionResponse)
+@router.get("/chat/session/{session_id}", response_model=SessionResponse)
 async def get_session(session_id: str):
     """Get a specific chat session."""
     try:
@@ -173,7 +173,7 @@ async def get_session(session_id: str):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error retrieving session: {str(e)}")
 
-@router.get("/session/{session_id}/messages", response_model=MessageHistoryResponse)
+@router.get("/chat/session/{session_id}/messages", response_model=MessageHistoryResponse)
 async def get_session_messages(session_id: str):
     """Get all messages for a specific session."""
     try:
@@ -194,7 +194,7 @@ async def get_session_messages(session_id: str):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error retrieving messages: {str(e)}")
 
-@router.delete("/session/{session_id}")
+@router.delete("/chat/session/{session_id}")
 async def delete_session(session_id: str):
     """Delete a chat session and all its messages."""
     try:
@@ -212,7 +212,7 @@ async def delete_session(session_id: str):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error deleting session: {str(e)}")
 
-@router.get("/sessions", response_model=List[SessionResponse])
+@router.get("/chat/sessions", response_model=List[SessionResponse])
 async def get_recent_sessions(limit: int = 20):
     """Get recent chat sessions."""
     try:
@@ -235,7 +235,7 @@ async def get_recent_sessions(limit: int = 20):
         raise HTTPException(status_code=500, detail=f"Error retrieving sessions: {str(e)}")
 
 # Health check for the chat router
-@router.get("/health")
+@router.get("/chat/health")
 async def chat_health():
     """Health check for the chat service."""
     return {"status": "healthy", "service": "chat"}

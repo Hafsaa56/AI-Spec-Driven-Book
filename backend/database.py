@@ -236,7 +236,7 @@ class Database:
                 role=row['role'],
                 content=row['content'],
                 timestamp=row['timestamp'],
-                metadata=row['metadata']
+                metadata=self._parse_metadata(row['metadata'])
             )
 
     async def get_messages(self, session_id: str, limit: int = 50, offset: int = 0) -> List[ChatMessage]:
@@ -346,6 +346,15 @@ class Database:
                 "recent_sessions": recent_sessions
             }
 
+    def _parse_metadata(self, metadata_value):
+        """Parse metadata that might be stored as JSON string or dict."""
+        import json
+        if isinstance(metadata_value, str):
+            try:
+                return json.loads(metadata_value)
+            except json.JSONDecodeError:
+                return {}
+        return metadata_value if metadata_value is not None else {}
     async def close(self):
         """Close the database connection pool."""
         if self.pool:
