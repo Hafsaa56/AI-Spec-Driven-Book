@@ -206,6 +206,47 @@ The RAG-based chatbot system provides an interactive learning experience, allowi
 
 This book and platform are designed to be living resources. Contributions, corrections, and improvements are welcome through pull requests or by reporting issues.
 
+## Deployment
+
+### Frontend (Docusaurus) to Vercel
+
+To deploy the frontend book to Vercel:
+
+1. Make sure you're in the frontend directory:
+   ```bash
+   cd frontend
+   ```
+
+2. Build the static site:
+   ```bash
+   npm run build
+   ```
+
+3. Deploy to Vercel:
+   ```bash
+   # Install Vercel CLI if you don't have it
+   npm install -g vercel
+
+   # Deploy the site
+   vercel --prod
+   ```
+
+Or link your GitHub repository to Vercel:
+- Go to https://vercel.com
+- Create a new project
+- Import your GitHub repository
+- Set the root directory to `frontend`
+- Set the build command to `npm run build`
+- Set the output directory to `build`
+
+### Backend (FastAPI) to Vercel or other Python platforms
+
+To deploy the backend API separately:
+- Vercel with Python runtime
+- Railway: `railway up`
+- Render: Follow Python deployment guides
+- AWS, GCP, or other cloud providers
+
 ## License
 
 [Specify license type here]

@@ -11,13 +11,13 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-book-url.github.io',
+  url: 'https://your-vercel-project-url.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
-  organizationName: 'your-organization', // Usually your GitHub org/user name.
+  organizationName: 'your-actual-username', // Usually your GitHub org/user name.
   projectName: 'physical-ai-book', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -72,7 +72,7 @@ const config = {
             label: 'Book',
           },
           {
-            href: 'https://github.com/your-username/physical-ai-book',
+            href: 'https://github.com/your-actual-username/physical-ai-book',
             label: 'GitHub',
             position: 'right',
           },
