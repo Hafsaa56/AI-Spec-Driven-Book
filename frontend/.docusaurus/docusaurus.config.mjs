@@ -7,9 +7,9 @@ export default {
   "title": "Physical AI and Humanoid Robotics",
   "tagline": "A comprehensive guide to embodied intelligence and humanoid robotics",
   "favicon": "img/favicon.ico",
-  "url": "https://your-book-url.github.io",
+  "url": "https://your-vercel-project-url.vercel.app",
   "baseUrl": "/",
-  "organizationName": "your-organization",
+  "organizationName": "your-actual-username",
   "projectName": "physical-ai-book",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
@@ -52,7 +52,7 @@ export default {
           "label": "Book"
         },
         {
-          "href": "https://github.com/your-username/physical-ai-book",
+          "href": "https://github.com/your-actual-username/physical-ai-book",
           "label": "GitHub",
           "position": "right"
         }
