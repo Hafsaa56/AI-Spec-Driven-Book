@@ -1,10 +1,18 @@
-# Physical AI and Humanoid Robotics
+# Physical AI and Humanoid Robotics Book with RAG-Based Chatbot
 
-A comprehensive AI-Spec Driven book teaching Physical AI and Humanoid Robotics, covering the complete journey from ROS 2 fundamentals to advanced Vision-Language-Action pipelines and conversational humanoid robots.
+A comprehensive AI-Spec Driven book teaching Physical AI and Humanoid Robotics, featuring an integrated RAG-based chatbot for interactive learning. The project covers the complete journey from ROS 2 fundamentals to advanced Vision-Language-Action pipelines and conversational humanoid robots.
 
 ## Overview
 
-This book provides a complete educational resource for understanding and implementing Physical AI systems and humanoid robotics. It follows a sim-to-real approach, bridging the gap between simulation and real-world robotics applications.
+This complete educational platform provides a comprehensive resource for understanding and implementing Physical AI systems and humanoid robotics. It follows a sim-to-real approach, bridging the gap between simulation and real-world robotics applications. The platform includes an advanced RAG-based chatbot that allows users to ask questions about the book content and receive contextually relevant answers based on the entire book documentation.
+
+### Key Features
+
+- **Interactive RAG-Based Chatbot**: Ask questions about the book content and get AI-powered responses with source citations
+- **Text Selection "Explain This" Feature**: Highlight text on any page and get detailed explanations
+- **Cyberpunk-Themed Interface**: Modern, attractive design with electric blue accents matching the robotics theme
+- **Complete Documentation**: 4 comprehensive modules with 26 chapters covering all aspects of Physical AI
+- **Responsive Design**: Works seamlessly across all devices and screen sizes
 
 ### Book Structure
 
@@ -74,10 +82,28 @@ The book is organized into 4 comprehensive modules with 26 chapters covering:
 25. Integration Guide - Complete system integration
 26. Advanced Topics - Future considerations and emerging technologies
 
+## Architecture
+
+### Frontend (Docusaurus)
+- Built with Docusaurus for documentation
+- Custom cyberpunk-themed styling with animations
+- Integrated chatbot widget with floating design
+- Text selection API for "Explain this" functionality
+- Responsive design for all devices
+
+### Backend (FastAPI)
+- FastAPI backend with async support
+- RAG (Retrieval-Augmented Generation) system
+- OpenRouter API for LLM responses (Claude 3.5 Sonnet)
+- Qwen embeddings for vector representations
+- Qdrant Cloud for vector database storage
+- Neon Postgres for chat history storage
+
 ## Getting Started
 
 ### Prerequisites
 - Node.js (v16 or higher)
+- Python 3.8+
 - npm package manager
 - Git for version control
 
@@ -93,16 +119,40 @@ The book is organized into 4 comprehensive modules with 26 chapters covering:
    cd frontend
    ```
 
-3. Install dependencies:
+3. Install frontend dependencies:
    ```bash
    npm install
    ```
 
+4. Navigate to the backend directory:
+   ```bash
+   cd ../backend
+   ```
+
+5. Install backend dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+6. Create a `.env` file in the backend directory with your API keys:
+   ```env
+   OPENROUTER_API_KEY=your_openrouter_api_key
+   QDRANT_URL=your_qdrant_url
+   QDRANT_API_KEY=your_qdrant_api_key
+   DATABASE_URL=your_neon_postgres_connection_string
+   ```
+
 ### Running Locally
 
-1. Make sure you're in the `frontend` directory
-2. Start the development server:
+1. Start the backend server:
    ```bash
+   cd backend
+   python main.py
+   ```
+
+2. In a new terminal, start the frontend:
+   ```bash
+   cd frontend
    npm start
    ```
 
@@ -111,13 +161,23 @@ The book is organized into 4 comprehensive modules with 26 chapters covering:
    http://localhost:3000
    ```
 
-The book will be available at this URL with full navigation and search capabilities.
+The book will be available at this URL with full navigation, search capabilities, and the interactive chatbot.
 
-## About This Book
+## Using the Chatbot
 
-This is an AI-Spec Driven book, meaning it was developed using specification-driven development principles with AI assistance. The content has been carefully structured to provide a comprehensive learning path from fundamental concepts to advanced implementations in Physical AI and Humanoid Robotics.
+The integrated RAG-based chatbot allows you to:
+- Ask questions about any topic covered in the book
+- Get contextually relevant answers based on the documentation
+- See source citations for the information provided
+- Use the "Explain this" feature by selecting text on any page
 
-The book emphasizes the sim-to-real paradigm, preparing readers for both simulation-based development and real-world robotics applications. All examples follow industry best practices and are designed to work with current technologies and platforms.
+## About This Project
+
+This is an AI-Spec Driven project, meaning it was developed using specification-driven development principles with AI assistance. The content has been carefully structured to provide a comprehensive learning path from fundamental concepts to advanced implementations in Physical AI and Humanoid Robotics.
+
+The project emphasizes the sim-to-real paradigm, preparing users for both simulation-based development and real-world robotics applications. All examples follow industry best practices and are designed to work with current technologies and platforms.
+
+The RAG-based chatbot system provides an interactive learning experience, allowing users to ask questions and get AI-powered responses based on the entire book content, making it an effective educational tool for mastering Physical AI and Humanoid Robotics concepts.
 
 ## Target Audience
 
@@ -135,11 +195,16 @@ The book emphasizes the sim-to-real paradigm, preparing readers for both simulat
 - NVIDIA Isaac Sim and Isaac ROS
 - Python, C++, and Bash scripting
 - Docusaurus for documentation
+- FastAPI for backend
+- OpenRouter API for LLM
+- Qdrant for vector storage
+- Neon Postgres for chat history
+- React for frontend components
 - Ubuntu 22.04 LTS
 
 ## Contributing
 
-This book is designed to be a living document. Contributions, corrections, and improvements are welcome through pull requests or by reporting issues.
+This book and platform are designed to be living resources. Contributions, corrections, and improvements are welcome through pull requests or by reporting issues.
 
 ## License
 
